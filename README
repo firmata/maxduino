@@ -1,0 +1,26 @@
+
+This package includes three Max patches and the Arduino firmware.  It allows you to control the Arduino board from Max.
+
+The patches use Max's internal serial object.
+
+arduino.pat - the heart piece
+arduino-test.pat, and arduino-help.pat relay on the above object.
+
+To use it, open Pd_firmware in Arduino and upload it to the board. Open up
+arduino-test.pat in Max, then choose your serial port.
+
+For more on Arduino, go to http://arduino.cc
+
+You can get more information about this firmware here: 
+http://www.arduino.cc/playground/Interfacing/Sensorbox
+
+Credits: Hans-Christoph Steiner <hans@at.or.at>, Georg Holzmann, Gerda Strobl, Marius Schebella <marius.schebella@gmail.com> 
+
+
+patcher history
+
+v.003 reworked port selection, now by device name (for windows...)
+
+v.002 added numbers for port selection
+
+v.01 first release
